@@ -1,4 +1,4 @@
-import Control__Box from "./components/Controle__Box";
+import ControlBox from "./components/Controle__Box";
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
         <div className="preview-box"></div>
       </div>
       <div className="control">
-        <Control__Box />
+        <ControlBox />
         
        
       </div>
