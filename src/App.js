@@ -6,7 +6,11 @@ function App() {
       <div className="preview">
         <div className="preview-box"></div>
       </div>
-      <div className="control">world</div>
+      <div className="control">
+        <div className="control-box">
+          <input type="range" name="" min="-100" max="100" defaultValue="0" id="" />
+        </div>
+      </div>
     </div>
   );
 }
