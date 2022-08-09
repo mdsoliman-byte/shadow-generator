@@ -1,3 +1,4 @@
+import Control__Box from "./components/Controle__Box";
 
 
 function App() {
@@ -7,9 +8,9 @@ function App() {
         <div className="preview-box"></div>
       </div>
       <div className="control">
-        <div className="control-box">
-          <input type="range" name="" min="-100" max="100" defaultValue="0" id="" />
-        </div>
+        <Control__Box />
+        
+       
       </div>
     </div>
   );
